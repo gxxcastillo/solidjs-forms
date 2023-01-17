@@ -2,12 +2,21 @@
   "name": "solidjs-forms",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
-  "private": true,
-  "dependencies": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.9"
+  },
   "devDependencies": {
+    "@nrwl/js": "^15.5.1",
+    "@nrwl/linter": "^15.5.1",
     "@nrwl/nx-cloud": "latest",
+    "@nrwl/vite": "^15.5.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
     "nx": "15.5.1",
+    "nx-stylelint": "^14.0.2",
     "prettier": "^2.6.2"
   },
   "workspaces": [

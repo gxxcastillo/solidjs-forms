@@ -1,0 +1,7 @@
+{
+  "*": [
+    "nx affected:lint --uncommitted --fix=true",
+    "nx format:write --uncommitted",
+    "nx workspace-lint --uncommitted"
+  ]
+}
